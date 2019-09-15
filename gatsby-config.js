@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Code Koala by BiBi`,
+    name: `CodeKoala`,
+    siteUrl: `http://codekoala.tech`,
+    description: `Code Koala, a tech blog by Udara Bibile.`,
     hero: {
-      heading: `Welcome to CodeKoala.<br/>Tech blog by Udara Bibile.`,
+      heading: `Welcome to CodeKoala.
+      Tech blog by Udara Bibile.<br/>
+      ---Under Construction---`,
       maxWidth: 652,
     },
     social: [
@@ -15,7 +17,7 @@ module.exports = {
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/udarabibile`,
       },
       {
         name: `instagram`,
@@ -24,10 +26,6 @@ module.exports = {
       {
         name: `linkedin`,
         url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
       },
     ],
   },
@@ -48,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
+        name: `Code Koala by BiBi`,
         short_name: `Novela`,
         start_url: `/`,
         background_color: `#fff`,

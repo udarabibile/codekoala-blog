@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import KoalaLogo from '../../../../assets/koala.png'
 
 import mediaqueries from "@styles/media";
 
@@ -15,8 +16,8 @@ const Logo = ({ fill = "#fff" }) => {
   return (
     <LogoContainer>
       <p style={{ color: fill, fontFamily: 'NOVA', fontSize: '40px' }}>
-        <img src="/koala.png" className="Logo__Desktop" style={styles.icon}></img>
-        <img src="/koala.png" className="Logo__Mobile" style={styles.icon_mobile}></img>
+        <img src={KoalaLogo} className="Logo__Desktop" style={styles.icon}></img>
+        <img src={KoalaLogo} className="Logo__Mobile" style={styles.icon_mobile}></img>
         <span className="Logo__Desktop" style={styles.logo(fill)}>CODE KOALA</span>
         <span className="Logo__Mobile" style={styles.logo_mobile(fill)}>CODE KOALA</span>
       </p>
